@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    max-width: 575px;
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px ;
+}
+
+.timer {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: red;
+    background-color: black;
+    font-size: 70px;
+}
+
+#home-team {
+    margin: 0px 0px 0px 30px;
+}
+
+#guest-team {
+    margin: 0px 30px 0px 0px;
+    
+}
+
+#home-score {
+    padding: 10px 10px 5px 20px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+#guest-score {
+    padding: 10px 20px 5px 42px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 7px;
+    background-color: #1B244A;
+    color: white;
+    border: 1px solid #9AABD8; 
+    border-radius: 4px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 10px 2px
+}
+
+.team-name {
+    font-size: 31px;
+    margin: 20px 0px 6px 10px;
+}
